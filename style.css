@@ -140,7 +140,13 @@ footer {
 
 aside {
     background-color: var(--cor3);
-
+    
+    padding-bottom: 10vh;
+    background-image: url(imagens/sofia01-pq.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    
 }
 
 aside > h3 {
@@ -162,6 +168,8 @@ aside > ul {
     list-style-position: inside;
     padding: 10px;
     columns: 2;
+    color: var(--cor1);
+    text-shadow: 1px 1px 0px black;
 }
 
 footer a {
